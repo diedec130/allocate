@@ -7,16 +7,7 @@ This web project has the following setup:
     * lib/ - the directory to hold third party scripts.
 * tools/ - the build tools to optimize the project.
 
-To optimize, run:
-
-    node tools/r.js -o tools/build.js
-
-That build command creates an optimized version of the project in a
-**www-built** directory. The app.js file will be optimized to include
-all of its dependencies.
-
-For more information on the optimizer:
-http://requirejs.org/docs/optimization.html
-
-For more information on using requirejs:
-http://requirejs.org/docs/api.html
+app folder contains the three main JS files of the exercise:
+1. main.js: Main file with the main function definitions.
+2. service.js: Contains the input data for the functions.
+3. utils.js: Contains helper functions.
