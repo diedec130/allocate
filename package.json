@@ -1,0 +1,9 @@
+{
+  "amd": {},
+  "volo": {
+    "baseUrl": "www/lib"
+  },
+  "dependencies": {
+    "server": "^1.0.22"
+  }
+}
